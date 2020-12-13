@@ -1,0 +1,56 @@
+{
+  "name": "markdown-editor-vue-xstate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "yarn lint --fix",
+    "stylelint": "stylelint src/**/*.css"
+  },
+  "dependencies": {
+    "core-js": "3.8.1",
+    "indent.js": "0.3.5",
+    "lodash.debounce": "4.0.8",
+    "markdown-it": "10.0.0",
+    "vue": "2.6.12",
+    "xstate": "4.15.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.9",
+    "@vue/cli-plugin-eslint": "4.5.9",
+    "@vue/cli-service": "4.5.9",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-algolia": "15.0.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.2.0",
+    "eslint-plugin-vue": "6.2.2",
+    "prettier": "1.19.1",
+    "stylelint": "13.8.0",
+    "stylelint-config-standard": "20.0.0",
+    "vue-svg-loader": "0.16.0",
+    "vue-template-compiler": "2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
